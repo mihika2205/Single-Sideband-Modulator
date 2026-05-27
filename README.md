@@ -23,10 +23,15 @@ Open-source simulation workflow
 # Project Contents
 Plain text
 ├── Circuit Schematic Files
+
 ├── NGSpice Simulation Files
+
 ├── Analysis & Output Files
+
 ├── Waveform Screenshots
+
 ├── Project Documentation
+
 └── README.md
 
 # Simulation & Analysis
