@@ -21,7 +21,7 @@ Simulation-based communication system analysis
 Open-source simulation workflow
 
 # Project Contents
-Plain text
+
 ├── Circuit Schematic Files
 
 ├── NGSpice Simulation Files
