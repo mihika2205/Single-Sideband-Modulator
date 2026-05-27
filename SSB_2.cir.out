@@ -1,0 +1,18 @@
+.title kicad schematic
+
+e1 net-_e1-pad1_ gnd net-_e1-pad3_ net-_e1-pad4_ 1
+v2 net-_e1-pad4_ gnd sin(0 5 100k)
+c1 gnd net-_c1-pad2_ 57n
+r1 net-_e1-pad1_ net-_l1-pad1_ 10
+l1 net-_l1-pad1_ net-_c1-pad2_ 1m
+r2 net-_c1-pad2_ gnd 1k
+v1 net-_e1-pad3_ gnd sin(0 1 1k 0 0)
+.tran 0.1e-06 5e-03 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+.endc
+.end

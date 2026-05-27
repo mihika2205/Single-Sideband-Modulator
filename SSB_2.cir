@@ -1,0 +1,9 @@
+.title KiCad schematic
+E1 Net-_E1-Pad1_ GND Net-_E1-Pad3_ Net-_E1-Pad4_ 1
+V2 Net-_E1-Pad4_ GND sin(0 5 100k)
+C1 GND Net-_C1-Pad2_ 57n
+R1 Net-_E1-Pad1_ Net-_L1-Pad1_ 10
+L1 Net-_L1-Pad1_ Net-_C1-Pad2_ 1m
+R2 Net-_C1-Pad2_ GND 1k
+V1 Net-_E1-Pad3_ GND sin(0 1 1k 0 0)
+.end
